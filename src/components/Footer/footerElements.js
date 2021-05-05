@@ -113,4 +113,14 @@ export const SocialIconLink = styled.a`
     color:white;
     font-size:24px;
 `;
+export const PageStats = styled.a`
+    color:white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size:14px;
+    &:hover{
+        color:#996600;
+        transition: 0.3s ease-in-out;
+    }
+`
 
