@@ -2,7 +2,7 @@ import React from 'react'
 import {FooterContainer, FooterLink, FooterWrap,
 FooterLinkItems,FooterLinksContainer, FooterLinksWrapper,
 FooterLinkTitle, SocialIconLink, SocialIcons, SocialLogo,
-SocialMedia,SocialMediaWrap, WebsiteRights} from './footerElements';
+SocialMedia,SocialMediaWrap, WebsiteRights, PageStats} from './footerElements';
 import {ImageBg} from '../navbar/NavbarElements';
 import Img from '../../img/HomeLogo.png';
 import {FaFacebook,FaGithub,FaLinkedin} from 'react-icons/fa';
@@ -19,7 +19,7 @@ const Footer = () => {
                         <FooterLinkItems>
                             <FooterLinkTitle>About Page</FooterLinkTitle>
                                 <FooterLink to="/contact">Contact Me</FooterLink>
-                                <FooterLink to="/aboutPage">How it Works</FooterLink>
+                                <PageStats href="https://github.com/fasunwon/PersonalWebsite" target="_blank">How it Works</PageStats>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
