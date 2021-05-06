@@ -5,11 +5,11 @@ export const homeObjOne = {
     LightTextDesc: true,
     topLine: 'Introduction',
     headLine: 'Software Systems Engineer',
-    description: `Hi My name is Favor Temiloluwa Fasunwon and i am currently in my 3rd year of Software Systems Engineering
-    at the University of Regina. I am developing a passion for web dev, and will 
-    continue advancing in this field because it makes me happy 😊. I love to learn and 
-    challenge myself, even if it means failing at times to succeed. 
-    I work hard and continue to evolve my skills as a Web developer. `,
+    description: `Hi My name is Favor Temiloluwa Fasunwon. I am a 3rd year Software Systems Engineering
+    student at the University of Regina, Canada. I have a passion for web development, and will 
+    continue advancing in this fascinating field 😊. I love to learn and 
+    challenge myself; even if it means failing at times to succeed. 
+    I will work hard and continue to evolve my skills as a Web developer. `,
     // buttonLabel:`Let's connect`,
     imgStart:true,
     img: require('../../img/favor.svg').default,
