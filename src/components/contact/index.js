@@ -13,17 +13,15 @@ const Contact = () => {
                 <ImageBg src={Img} type='image/png'/>
                 </Icon>
                 <FormContent>
-                    <Form action="https://formsubmit.co/favor_fasunwon21@hotmail.com" method="POST">
+                    <Form action="https://www.formbackend.com/f/96215af300a6b8da" method="POST">
                     {/* <Picture src={Img2} type = 'image/svg'/> */}
                     <FormH1>Contact Me!!</FormH1>
                     <FormLabel htmlFor='for'>Name</FormLabel><br></br>
-                        <FormInput type='text' placeholder="First and Last name" required /><br></br>
-                        <FormInput type='hidden' name="_subject" value="You got Mail!" />
-                        <FormInput type='hidden' name="_next" value="https://fasunwon-codes.netlify.app" />
+                        <FormInput type='text' name="_name"placeholder="First and Last name" required /><br></br>
                     <FormLabel htmlFor='for'>Email</FormLabel><br></br>
-                        <FormInput type='email' placeholder="Email address....." required /><br></br>
+                        <FormInput type='email' name="_email"placeholder="Email address....." required /><br></br>
                     <FormLabel htmlFor='for'>Message</FormLabel><br></br>
-                        <FormMessage type='text' placeholder="Message....." required /><br></br>
+                        <FormMessage type='text' name="_subject" placeholder="Message....." required /><br></br>
                     <FormButton type='submit'>Send ✈</FormButton>
                     </Form>
                 </FormContent>
