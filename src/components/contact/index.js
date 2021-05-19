@@ -19,6 +19,7 @@ const Contact = () => {
                     <FormLabel htmlFor='for'>Name</FormLabel><br></br>
                         <FormInput type='text' placeholder="First and Last name" required /><br></br>
                         <FormInput type='hidden' name="_subject" value="You got Mail!" />
+                        <FormInput type='hidden' name="_next" value="https://fasunwon-codes.netlify.app" />
                     <FormLabel htmlFor='for'>Email</FormLabel><br></br>
                         <FormInput type='email' placeholder="Email address....." required /><br></br>
                     <FormLabel htmlFor='for'>Message</FormLabel><br></br>
