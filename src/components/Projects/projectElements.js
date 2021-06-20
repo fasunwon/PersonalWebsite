@@ -53,6 +53,10 @@ export const ProjectsCard = styled.a`
         transition: all 0.3s ease-in-out;
         cursor: pointer;
     }
+    @media screen and (max-width:768px){
+
+        max-height:230px;
+    }
 
 `;
 
@@ -66,6 +70,12 @@ export const ProjectsH1 = styled.h1`
     @media screen and (max-width:480px){
         font-size:2rem;
         margin-left:35px;
+    }
+    @media screen and (max-width:768px){
+        font-size:2rem;
+        margin-left:35px;
+        margin-bottom:50px;
+
     }
     font-size: 2.5rem;
     color: white;
