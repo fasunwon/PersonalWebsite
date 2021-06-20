@@ -89,11 +89,19 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
     max-width: 555px;
     height:100%;
+    
 `;
 
 export const Image = styled.img`
-
+@media screen and (max-width:768px){
+    position:relative;
+    bottom:100px;
+    max-height:200px;
+    max-width:200px;
+    left:35px;
+}
     width: 100%;
     margin: 0 0 10px 0;
     padding-right:0;
+    
 `;
