@@ -19,7 +19,7 @@ const Home = () => {
         <SideBar isOpen={isOpen} toggle={toggle}/>
         <Navbar toggle={toggle}/>
         <HeroSection/>
-        <InfoSection {...homeObjOne} style={{Button:"hidden"}}/>
+        <InfoSection {...homeObjOne}/>
         <Projects/>
         <InfoSection {...homeObjThree}/>
         <InfoSection {...homeObjFour}/>
