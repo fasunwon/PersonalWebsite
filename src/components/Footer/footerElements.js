@@ -37,6 +37,13 @@ export const FooterLinkItems = styled.div`
         width:100%;
         padding:10px;
     }
+    @media screen and (max-width:768px){
+        margin:0;
+        width:100%;
+        padding:10px;
+        align-items:center;
+
+    }
     display: flex;
     flex-direction:column;
     align-items:flex-start;
