@@ -113,6 +113,9 @@ export const NavBtnLink = styled(LinkRouter)`
 `;
 
 export const ImageBg =styled.img`
-    width:80px;
-    height:80px;
+    width:70px;
+    height:70px;
+    @media screen and (max-width:768px){
+        margin-top:45px;
+    }
 `;
