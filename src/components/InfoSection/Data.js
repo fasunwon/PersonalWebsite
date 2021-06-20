@@ -12,7 +12,7 @@ export const homeObjOne = {
     I will work hard and continue to evolve my skills as a Web developer. `,
     // buttonLabel:`Let's connect`,
     imgStart:true,
-    img: require('../../img/favor.svg').default,
+    img: require('../../img/favor.jpg').default,
     alt: 'person',
     dark:true,
     primary:true,
@@ -29,6 +29,9 @@ export const homeObjThree = {
     description: `As you can tell by the Emoji, i love to code. More so, i have interests
     that lie outside of coding, such as Playing the Saxophone🎷, 
     playing basketball 🏀, Watching the stars at night 🌟, and creating christian rap music 😎.`,
+    description2:`Here are a few concepts, languages and databases i am familiar with:
+    HTML&CSS/SASS, JavaScript, C++, NodeJs, ReactJs, mySQL, Mongodb, EJS, Git and GitHub, and Front-End Development.`,
+    
     buttonLabel:`Let's connect`,
     imgStart:true,
     img: require('../../img/coding.svg').default,
