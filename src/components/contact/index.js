@@ -22,7 +22,7 @@ const Contact = () => {
                         <FormInput type='email' name="_email"placeholder="Email address....." required /><br></br>
                     <FormLabel htmlFor='for'>Message</FormLabel><br></br>
                         <FormMessage type='text' name="_subject" placeholder="Message....." required /><br></br>
-                    <FormButton type='submit'>Send ✈</FormButton>
+                    <FormButton type='submit'>Send</FormButton>
                     </Form>
                 </FormContent>
             </FormWrap>

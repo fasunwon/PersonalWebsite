@@ -12,7 +12,7 @@ export const homeObjOne = {
     I will work hard and continue to evolve my skills as a Web developer. `,
     // buttonLabel:`Let's connect`,
     imgStart:true,
-    img: require('../../img/favor.jpg').default,
+    img: require('../../img/profile.png').default,
     alt: 'person',
     dark:true,
     primary:true,

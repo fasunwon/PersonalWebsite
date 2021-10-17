@@ -7,6 +7,7 @@ import Icon2 from '../../img/whack.svg';
 import Icon3 from '../../img/workout.svg';
 import Icon4 from '../../img/amazon.svg';
 import Icon5 from '../../img/tracker.svg';
+import Icon6 from '../../img/WhatsApp.png';
 
 
 const Projects = () => {
@@ -34,10 +35,15 @@ const Projects = () => {
                 <ProjectsH2>COVID-19 Tracker</ProjectsH2>
                 <ProjectsP>Tracking website that fetches info from an API</ProjectsP>
             </ProjectsCard>
-            <ProjectsCard>
+            <ProjectsCard href="https://github.com/fasunwon/AmazonClone">
                 <ProjectsIcon src={Icon4}/>
-                <ProjectsH2>Amazon MERN Webiste Clone</ProjectsH2>
-                <ProjectsP>Coming Soon....</ProjectsP>
+                <ProjectsH2>Amazon Clone</ProjectsH2>
+                <ProjectsP>Website with Payment and user Authentication</ProjectsP>
+            </ProjectsCard>
+            <ProjectsCard>
+                <ProjectsIcon src={Icon6}/>
+                <ProjectsH2>WhatsApp MERN Clone</ProjectsH2>
+                <ProjectsP>Coming Soon...</ProjectsP>
             </ProjectsCard>
         </ProjectsWrapper>
         </ProjectsContainer>
